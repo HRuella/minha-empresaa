@@ -1,4 +1,4 @@
-.cabecalho_menu{
+.cabecalho_menu_hamburguer{
     width: 38px;
     height: 40px;
     background-image: url("../fotos/Menu.svg");
@@ -30,7 +30,7 @@
     width: 30vw;
 }
 
-.conteiner_botao:checked .lista-menu {
+.container_botao:checked ~ .lista-menu {
     display:block;
 }
 .lista-menu-titulo,
